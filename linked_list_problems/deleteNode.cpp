@@ -36,7 +36,7 @@ void deleteNode( Node * node )
 {
   // return if node is null
   if ( node == nullptr ) {
-    std::cout<<"The linked list is empty"<<std::endl;
+    std::cout<<"The linked list is has no node"<<std::endl;
     return;
   }
 
