@@ -26,7 +26,7 @@ void insert( Node * & head, int data )
 void printList( Node * head )
 {
   while( head ) {
-    std::cout << head->data << "-->";
+    std::cout << head->data << "-->"<< std::endl;
     head = head->next;
   }
   std::cout << "NULL" << std::endl;
@@ -36,6 +36,7 @@ void deleteNode( Node * node )
 {
   // return if node is null
   if ( node == nullptr ) {
+    std::cout<<"The linked list is empty"<<std::endl;
     return;
   }
 
